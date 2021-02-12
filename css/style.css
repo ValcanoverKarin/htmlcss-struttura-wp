@@ -4,3 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #e579e6;
+    height: 150px;
+    margin: 20px 0;
+}
+
+main {
+    background-color: #0286ff;
+    margin: 10px 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col-left, .col-right {
+    width: 20%;
+    background-color: #abcfe7;
+    height: 500px;
+}
+
+.col-center {
+    width: 57%;
+    background-color: #abcfe7;
+    height: 500px;
+    margin: 0 1.5%;
+    
+}
+
+footer {
+    background-color: #8800fe;
+    height: 50px;
+}
