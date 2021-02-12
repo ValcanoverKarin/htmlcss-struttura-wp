@@ -5,12 +5,21 @@
     box-sizing: border-box;
 }
 
-header {
+/*header*/
+.purple {
     background-color: #e579e6;
     height: 150px;
     margin: 20px 0;
 }
 
+.yellow {
+    background-color: #e1d67a;
+    height: 450px;
+    margin: 20px 0;
+}
+/* fine header*/
+
+/*main*/
 main {
     background-color: #0286ff;
     margin: 10px 0;
@@ -20,6 +29,12 @@ main {
     content: "";
     display: table;
     clear: both;
+}
+
+.clearfix section{
+    background-color: #abcfe7;
+    height: 150px;
+    margin: 20px 0;
 }
 
 .col {
@@ -36,11 +51,14 @@ main {
     width: 57%;
     background-color: #abcfe7;
     height: 500px;
-    margin: 0 1.5%;
+    margin: 0 1.5%
     
 }
+/*fine main*/
 
+/*footer*/
 footer {
     background-color: #8800fe;
     height: 50px;
 }
+/*fine footer*/
