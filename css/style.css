@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.wrapper {
+    width: 1024px;
+    margin: auto;
+}
+
 /*header*/
 .purple {
     background-color: #e579e6;
@@ -20,25 +25,25 @@
 /* fine header*/
 
 /*main*/
-main {
+.content {
     background-color: #0286ff;
-    margin: 10px 0;
+    padding: 15px 0;
 }
 
-.clearfix::after {
+.content::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.clearfix section{
+.title{
     background-color: #abcfe7;
     height: 150px;
-    margin: 20px 0;
 }
 
 .col {
     float: left;
+    height: 400px;
 }
 
 .col-left, .col-right {
@@ -60,5 +65,6 @@ main {
 footer {
     background-color: #8800fe;
     height: 50px;
+    margin: 10px 0px;
 }
 /*fine footer*/
